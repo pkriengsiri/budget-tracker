@@ -2,7 +2,7 @@
 A PWA for online or offline tracking of deposits and withdrawals 
 
 ## Description
-This application is a simple budget tracking tool that allows for entry of both deposits and expenses, and follows the progressive web application architecture.   The front end was created using JavaScript, CSS, Chart.js, and Font-Awesome.   The backend is supported by Node, Express, Mongoose, and MongoDb.  The application uses the Cache Storage API, Fetch API and IndexDB to facilitate offline-access and data persistence. 
+This application is a simple budget tracking tool allowing for entry of both deposits and expenses and following the progressive web application architecture.   The front end was created using JavaScript, CSS, Chart.js, and Font-Awesome.   The backend is supported by Node, Express, Mongoose, and MongoDb.  The application uses the Cache Storage API, Fetch API and IndexDB to facilitate offline-access and data persistence. 
 
 ### Functionality
 * Create new deposits
@@ -34,13 +34,11 @@ This application is a simple budget tracking tool that allows for entry of both 
 ## Installation
 From GitHub, fork the repo and upload all contents to the deployed server.  The server must have Node.js installed. Once forked, run 'npm i' from the root directory to install required dependencies.  
 
-Modify the `server.js` connection to match your MongoDB server configuration.
+Modify the `server.js` connection to match your MongoDB server configuration.  Run `npm start` to start the application locally.
 
 ## Usage
 
-Run `npm start` to start the application.
-
-Link to the deployed example: 
+Link to the deployed example: https://budget-tracker-pk.herokuapp.com/
 
 
 ![demo of budget-tracker application](./screenshot/demo.gif)
@@ -88,7 +86,10 @@ SOFTWARE.
 No contributions are being accepted at this time.
   
 ## Badges
-
+[![GitHub issues](https://img.shields.io/github/issues/pkriengsiri/budget-tracker)](https://github.com/pkriengsiri/budget-tracker/issues)
+[![GitHub forks](https://img.shields.io/github/forks/pkriengsiri/budget-tracker)](https://github.com/pkriengsiri/budget-tracker/network)
+[![GitHub stars](https://img.shields.io/github/stars/pkriengsiri/budget-tracker)](https://github.com/pkriengsiri/budget-tracker/stargazers)
+[![GitHub license](https://img.shields.io/github/license/pkriengsiri/budget-tracker)](https://github.com/pkriengsiri/budget-tracker/blob/main/LICENSE)
 
 ## Questions
 Contact me via [email](mailto:pkriengsiri@gmail.com).
